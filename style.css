@@ -1,39 +1,30 @@
-.tab{
-    width: 1000px;
-}
+.tab {
+    width: 600px;
 
+}
 .tab-nav{
     display: flex;
+
 }
 .tab-nav-item{
     margin: 2px;
     background: whitesmoke;
-    color: black;
+    color: rgb(0, 0, 0);
     padding: 10px 20px;
     text-decoration: none;
-   border-radius: 5px 5px 0 0;
-}
-.tab-nav-item.is-active{
-    background: greenyellow;
-    color: blue;
+    border-radius: 5px 5px 0 0;
+
 }
 
-.tab-contents{
+.tab-nav-item.is-active {
+      background: rgb(31, 238, 72);
+      color: rgb(40, 56, 238);
+
+}
+.tab-contents {
     border: 1px solid #ccc;
     padding: 20px;
 }
-
-h1{
-background-color: blue;
-color: #fff;
-padding: 10px;
-text-align: center;
-}
-footer{
-    background-color: blue;
-    color: #fff;
-    padding: 15px;
-    text-align: center;
-    margin-bottom: 0;
-    width: 980px;
+.tab-contents-item {
+    display: none;
 }
